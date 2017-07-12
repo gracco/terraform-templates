@@ -8,10 +8,11 @@ Requirements
 ------------
 terraform - https://www.terraform.io/downloads.html
 
-ENVIRONMENT VARIABLES
-
+Environment Variables
+ ```
 AWS_ACCESS_KEY_ID=ACMEAWSACCESSKEY
 AWS_SECRET_ACCESS_KEY=ACMESECRETACCESSKEYIASNEOQDS
+```
 ------------------
 
 github.com/gracco - gracco.cerqueira@gmail.com
