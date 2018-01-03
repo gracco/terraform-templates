@@ -12,7 +12,7 @@ resource "aws_route53_record" "default" {
 resource "aws_route53_record" "external_ip" {
   #Route53 create A entry for internal IP
   zone_id = "${var.route53_zone_id}"
-  name = "graphql-test.stg"
+  name = "acme"
   type = "CNAME"
   ttl = "300"
   records = ["${aws_alb.alb_terraform.dns_name}"]
